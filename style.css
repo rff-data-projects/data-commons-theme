@@ -121,7 +121,8 @@ h6,
 }
 
 .container-fluid {
-    max-width: 1385px
+    max-width: 1385px;
+    margin: 0px 10px;
 }
 
 .navbar-brand {
@@ -205,7 +206,7 @@ h6,
     margin: 0px;
     padding-top: 90px;
     background: #e1f0fc;
-    padding-bottom: 105px;
+    padding-bottom: 140px;
     margin-bottom: 80px;
 }
 
@@ -250,6 +251,7 @@ section.story {
     margin-right: 40px;
     height: 380px;
     border: 1px solid #ddd;
+    position: relative;
 }
 
 .story-block div {
@@ -257,7 +259,7 @@ section.story {
 }
 
 .story-nav div {
-    display: inline-block;
+    display: inline;
 }
 
 .story-nav .nav-item img {
@@ -268,6 +270,15 @@ section.story {
 .story-nav .nav-item img:hover {
     transform: translateY(-3px);
     box-shadow: rgba(0, 0, 0, 0.05) 0px 4px 11px;
+}
+
+.story-image-link {
+    position: absolute;
+    bottom:0px;
+    right:0px;
+    padding: 7px 10px;
+    height: 38px;
+    background: #e1f0fc;
 }
 
 .story-nav img { height: 38px; width: 38px }
